@@ -1,0 +1,103 @@
+
+# Food Delivery Dataset Analysis
+
+## Project Overview
+This project focuses on cleaning and analyzing a food delivery dataset using Python. Pandas is used for data cleaning and analysis, while Matplotlib and Seaborn are used to visualize patterns, trends, and relationships in the data.
+
+## Objectives
+- Clean and preprocess the dataset.
+- Identify missing values and duplicate records.
+- Analyze order status and cancellation rates.
+- Explore customer spending and payment preferences.
+- Evaluate delivery performance and late deliveries.
+- Analyze customer ratings and satisfaction.
+- Visualize important business insights.
+
+## Dataset Information
+- **Dataset:** Food Delivery Orders Dataset
+- **Number of rows:** 50,000
+- **Number of columns:** 37
+- **Period:** October 2025
+- **Format:** CSV
+
+The dataset contains information about orders, customers, restaurants, payments, delivery times, weather conditions, and customer ratings.
+
+## Technologies Used
+- Python 3
+- Pandas
+- Matplotlib
+- Seaborn
+- Jupyter Notebook / VS Code
+
+## Project Workflow
+1. Load the dataset using Pandas.
+2. Inspect the dataset structure and data types.
+3. Handle duplicate records and inconsistent text.
+4. Convert columns to appropriate data types.
+5. Analyze missing values.
+6. Perform exploratory data analysis.
+7. Create visualizations.
+8. Summarize findings and business recommendations.
+
+## Key Findings
+- **Total orders:** 50,000
+- **Completed orders:** 49,132 (98.26%)
+- **Cancelled orders:** 868 (1.74%)
+- **Peak ordering hour:** 7 PM
+- **Busiest day:** Thursday
+- **Average delivery time:** 35.15 minutes
+- **Late delivery rate:** 36.57%
+- **Average customer rating:** 4.30 / 5
+- **Most popular payment method:** Credit card (49.94%)
+
+## Visualizations
+The analysis includes:
+- Order status distribution
+- Orders by hour and day
+- Order value distribution
+- Delivery time distribution
+- Customer rating distribution
+- Payment method distribution
+- Late delivery rate by weather
+- Correlation heatmap
+- Outlier detection using boxplots
+
+## Installation
+
+Install the required libraries:
+
+```bash
+pip install pandas matplotlib seaborn
+```
+
+## How to Run
+
+1. Clone or download this project.
+2. Place the dataset CSV file in the project folder.
+3. Run the data-cleaning script.
+4. Run the EDA script.
+
+```bash
+python clean_data.py
+python eda.py
+```
+
+## Output Files
+- `cleaned_food_delivery_orders.csv` — cleaned dataset.
+- Charts generated during exploratory data analysis.
+
+## Conclusion
+The analysis provides insights into order trends, customer spending, cancellation patterns, and delivery performance. The findings highlight opportunities to improve driver availability, reduce delivery delays, and enhance customer satisfaction.
+
+## Future Improvements
+- Build an interactive dashboard using Power BI or Streamlit.
+- Predict delivery delays using machine learning.
+- Analyze the factors associated with order cancellations.
+- Develop a customer satisfaction prediction model.
+- Forecast order demand by hour and day.
+
+## Author
+Achuth
+
+## License
+This project is intended for educational and analytical purposes.
